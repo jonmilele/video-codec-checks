@@ -4,8 +4,8 @@
 # -----------------------------------------------------
 #
 # Usage:
-#   ./check_for_x265.sh [--codec x265|x264|both] [directory]
-#   ./check_for_x265.sh                # Launch interactive menu (_whiptail)
+#   ./video-codec-checks.sh [--codec x265|x264|both] [directory]
+#   ./video-codec-checks.sh                # Launch interactive menu (_whiptail)
 #
 # Options:
 #   --codec x265   Search for H.265/HEVC only (default)

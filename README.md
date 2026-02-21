@@ -21,16 +21,16 @@ A bash script that recursively scans a directory tree for **H.265/X265** and/or 
 
 ```bash
 # Interactive mode (launches menu)
-./check_for_x265.sh
+./video-codec-checks.sh
 
 # Scan a specific directory for H.265 (default)
-./check_for_x265.sh /path/to/videos
+./video-codec-checks.sh /path/to/videos
 
 # Scan for H.264 only
-./check_for_x265.sh --codec x264 /path/to/videos
+./video-codec-checks.sh --codec x264 /path/to/videos
 
 # Scan for both codecs
-./check_for_x265.sh --codec both /path/to/videos
+./video-codec-checks.sh --codec both /path/to/videos
 ```
 
 ## Configuration
